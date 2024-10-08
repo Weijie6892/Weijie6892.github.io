@@ -123,18 +123,17 @@ header nav {
 }
 .competitions li {
     margin-bottom: 10px;
-    padding-left: 30px; /* 調整左邊距離以容納圖標 */
-    position: relative;
+    padding-left: 30px;
 }
 .competitions li::before {
-    content: "\f091"; /* Font Awesome的獎盃圖標 */
-    font-family: "Font Awesome 5 Free"; /* 確保使用Font Awesome字體 */
-    font-weight: 900; /* 確保使用Font Awesome的粗體 */
+    content: "\f091";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
     position: absolute;
     left: 0;
-    top: 50%; /* 垂直置中 */
-    transform: translateY(-50%); /* 垂直置中 */
-    color: bronze; /* 使用銅牌顏色 */
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: bronze; 
     font-size: 20px;
     line-height: 20px;
 }
@@ -173,7 +172,7 @@ header nav {
     color: #fff;
 }
 #backToTopBtn {
-    display: none; /* 預設隱藏 */
+    display: none; 
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -198,9 +197,9 @@ header .menu-toggle {
     border: none;
     font-size: 2rem;
     cursor: pointer;
-    position: absolute; /* 新增的樣式 */
-    top: 10px; /* 新增的樣式 */
-    right: 10px; /* 新增的樣式 */
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
 }
 
 header nav ul {
@@ -215,7 +214,7 @@ header nav ul li {
 header nav ul.menu.active {
     display: block;
     animation: slideIn 0.3s forwards;
-    text-align: center; /* 新增的樣式 */
+    text-align: center; 
 }
 
 @keyframes slideIn {
@@ -229,16 +228,16 @@ header nav ul.menu.active {
     }
 }
 
-/* 新增的 CSS */
+
 header .menu-toggle {
     display: none;
     background: none;
     border: none;
     font-size: 2rem;
     cursor: pointer;
-    position: absolute; /* 確保按鈕在右上角 */
-    top: 10px; /* 確保按鈕在右上角 */
-    right: 10px; /* 確保按鈕在右上角 */
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
 }
 
 header nav ul {
@@ -253,7 +252,7 @@ header nav ul li {
 header nav ul.menu.active {
     display: block;
     animation: slideIn 0.3s forwards;
-    text-align: center; /* 確保菜單內容置中 */
+    text-align: center; 
 }
 
 @keyframes slideIn {
@@ -270,19 +269,19 @@ header nav ul.menu.active {
 @media (max-width: 768px) {
     header .menu-toggle {
         display: block;
-        position: absolute; /* 確保按鈕在右上角 */
-        top: 10px; /* 確保按鈕在右上角 */
-        right: 10px; /* 確保按鈕在右上角 */
+        position: absolute; 
+        top: 10px; 
+        right: 10px; 
     }
 
     header nav ul {
         display: none;
         flex-direction: column;
-        align-items: center; /* 確保菜單內容置中 */
-        justify-content: center; /* 確保菜單內容置中 */
-        height: 100vh; /* 確保菜單內容置中 */
-        margin: 0; /* 確保菜單內容置中 */
-        padding: 0; /* 確保菜單內容置中 */
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh;
+        margin: 0; 
+        padding: 0; 
     }
 
     header nav ul.menu.active {
@@ -290,11 +289,11 @@ header nav ul.menu.active {
     }
 
     .showcase {
-        display: block; /* 確保初始狀態為顯示 */
+        display: block;
     }
 
     .showcase.hidden {
-        display: none; /* 隱藏 About Me 區塊 */
+        display: none; 
     }
 
     .skills-competitions {
