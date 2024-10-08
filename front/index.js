@@ -1,4 +1,4 @@
-import startpage from "./startpage.js"
+// import startpage from "./startpage.js"
 
 window.onload = function(){
     document.getElementById('root').innerHTML = startpage();
@@ -29,4 +29,5 @@ window.onload = function(){
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     };
+    
 }

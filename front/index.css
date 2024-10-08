@@ -192,3 +192,113 @@ header nav {
 #backToTopBtn:hover {
     background-color: #555;
 }
+header .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute; /* 新增的樣式 */
+    top: 10px; /* 新增的樣式 */
+    right: 10px; /* 新增的樣式 */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul.menu.active {
+    display: block;
+    animation: slideIn 0.3s forwards;
+    text-align: center; /* 新增的樣式 */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 新增的 CSS */
+header .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute; /* 確保按鈕在右上角 */
+    top: 10px; /* 確保按鈕在右上角 */
+    right: 10px; /* 確保按鈕在右上角 */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul.menu.active {
+    display: block;
+    animation: slideIn 0.3s forwards;
+    text-align: center; /* 確保菜單內容置中 */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    header .menu-toggle {
+        display: block;
+        position: absolute; /* 確保按鈕在右上角 */
+        top: 10px; /* 確保按鈕在右上角 */
+        right: 10px; /* 確保按鈕在右上角 */
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center; /* 確保菜單內容置中 */
+        justify-content: center; /* 確保菜單內容置中 */
+        height: 100vh; /* 確保菜單內容置中 */
+        margin: 0; /* 確保菜單內容置中 */
+        padding: 0; /* 確保菜單內容置中 */
+    }
+
+    header nav ul.menu.active {
+        display: flex;
+    }
+
+    .showcase {
+        display: block; /* 確保初始狀態為顯示 */
+    }
+
+    .showcase.hidden {
+        display: none; /* 隱藏 About Me 區塊 */
+    }
+
+    .skills-competitions {
+        display: flex;
+        flex-direction: column;
+    }
+}
