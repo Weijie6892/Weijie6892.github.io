@@ -82,10 +82,10 @@ export default function startpage(){
             </div>
             <div class="contact_me">
                 <h2 id="contact_me">聯絡我</h2>
-                <a href="https://www.instagram.com/wei._.0708" target="_blank" class="contact-item"><i class="fab fa-instagram"></i> INS：wei._.0708</a>
-                <a href="https://www.facebook.com/profile.php?id=100021011268543&locale=zh_TW" target="_blank" class="contact-item"><i class="fab fa-facebook">FB：孫葦傑</i></a>
-                <a href="" target="_blank" class="contact-item"><i class="fab fa-line"></i> LINE：2005.07.08</a>
-                <a href="" class="contact-item"><i class="fas fa-phone"></i> TEL：0975132553</a>
+                <a href="https://www.instagram.com/wei._.0708" target="_blank" class="contact-item"><i class="fab fa-instagram">INS：</i>wei._.0708</a>
+                <a href="https://www.facebook.com/profile.php?id=100021011268543&locale=zh_TW" target="_blank" class="contact-item"><i class="fab fa-facebook">FB：</i>孫葦傑</a>
+                <a href="" target="_blank" class="contact-item"><i class="fab fa-line">LINE：</i> 2005.07.08</a>
+                <a href="" class="contact-item"><i class="fas fa-phone">TEL：</i> 0975132553</a>
             </div>
         </section>
         <button id="backToTopBtn" title="返回頂端">↑</button>
